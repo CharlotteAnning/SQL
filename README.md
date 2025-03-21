@@ -6,3 +6,7 @@ This is a question from HackerRank which uses a version of SQL that doesn't acce
 ```
 SELECT DISTINCT CITY FROM STATION WHERE UPPER(SUBSTR(CITY, 1, 1)) NOT IN ('A', 'E', 'I', 'O', 'U') OR UPPER(SUBSTR(CITY, LENGTH(CITY), 1)) NOT IN ('A', 'E', 'I', 'O', 'U');
 ```
+
+<pre style="word-wrap: break-word; white-space: pre-wrap;">
+SELECT DISTINCT CITY FROM STATION WHERE UPPER(SUBSTR(CITY, 1, 1)) NOT IN ('A', 'E', 'I', 'O', 'U') OR UPPER(SUBSTR(CITY, LENGTH(CITY), 1)) NOT IN ('A', 'E', 'I', 'O', 'U');
+</pre>
